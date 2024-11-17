@@ -1,0 +1,127 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container styling */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Header styling */
+  h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actions button {
+    background-color: #007bff;
+  }
+  
+  .actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .actions .delete-button {
+    background-color: #e74c3c;
+  }
+  
+  .actions .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+  
+    th,
+    td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  

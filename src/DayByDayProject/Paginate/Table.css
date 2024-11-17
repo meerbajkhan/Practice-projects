@@ -1,0 +1,68 @@
+/* Table.css */
+.Pagination {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Pagination buttons */
+  .Pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Pagination button:hover {
+    background-color: #ffd901;
+  }
+  
+  .Pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Active page button style */
+  .Pagination button.active {
+    background-color: #3e8e41;
+  }
+  
+  /* Small screen responsiveness */
+  @media (max-width: 600px) {
+    table, .Pagination button {
+      font-size: 14px;
+    }
+  }
+  

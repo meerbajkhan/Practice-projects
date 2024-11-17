@@ -1,0 +1,55 @@
+/* src/App.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard, .health-log, .health-tips, .quiz, .clock {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .clock, .health-log, .quiz, .health-tips {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .log-card {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    border-radius: 4px;
+  }
+  
+  .pagination button {
+    margin: 2px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .pagination .active {
+    background-color: #90caf9;
+  }
+  
